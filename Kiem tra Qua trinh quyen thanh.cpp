@@ -48,7 +48,7 @@ void nhapMang(int a[], int n)
 	while(i<=n+1)
 	{
 		printf("\nNhap thoi gian hoc thu %d: ", i);
-		scanf("%d", &a[i]); //a+i
+		scanf("%d", &a[i]); 
 		i++;
 	}
 }
@@ -71,7 +71,7 @@ int tinhTong(int a[], int n)
 	{
 		tong = tong + a[i];
 		i++;
-	}while(i<=n-1);
+	}while(i<=n+1);
 	return tong;
 }
 
